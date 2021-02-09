@@ -1,26 +1,32 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <NetworkContainer :collabLimit="collabLimit" :shadow="shadow"/>
+  <Filters v-model:collabLimit="collabLimit" />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NetworkContainer from './components/NetworkContainer'
+import Filters from './components/Filters'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    NetworkContainer,
+    Filters
+  },
+  data() {
+    return {
+      collabLimit: 10
+    }
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+html, body, #app {
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  width: 100%;
+  margin: 0;
 }
 </style>
