@@ -1,4 +1,4 @@
-# hololive_collabs
+# Hololive Collab Network Graph
 [Link to the final product.](https://thennal10.github.io/hololive-collabs/)
 
 So I was bored out of my mind and decided to do a little data visualization. In particular, I wanted to see a network graph of collabs, and I liked all my plots interactive and jiggly. Two issues: there is no one as far as I can find whose hobby is to just collect collab information between vtubers, and jiggly plots means (to an extent) I'd have to work outside python. 
