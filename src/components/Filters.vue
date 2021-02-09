@@ -4,7 +4,7 @@
         <input type="range" min="0" max="20" 
         :value="collabLimit" @input="$emit('update:collabLimit', Number($event.target.value))">
         <br>
-        <a href="github link">What is this?</a>
+        <a href="https://github.com/thennal10/hololive-collabs">What is this?</a>
     </div>
 </template>
 
