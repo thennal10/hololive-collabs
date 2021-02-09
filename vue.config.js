@@ -6,5 +6,8 @@ module.exports = {
                 args[0].title = 'Hololive Collab Network';
                 return args;
             })
-    }
+    },
+    publicPath: process.env.NODE_ENV === 'production'
+    ? '/hololive-collabs/'
+    : '/'
 }
