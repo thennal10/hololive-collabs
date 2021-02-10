@@ -1,6 +1,6 @@
 <template>
     <div>
-        <span>Minimum Collab Filter:</span><br>
+        <span>Minimum Collab Filter: {{collabLimit}}</span><br>
         <input type="range" min="0" max="20" 
         :value="collabLimit" @input="$emit('update:collabLimit', Number($event.target.value))">
         <br>
