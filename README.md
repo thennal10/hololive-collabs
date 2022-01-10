@@ -1,4 +1,4 @@
-A quick refactor of an older project, because I wanted to try out [Streamlit](). Verdict: a largely immature tool, but occasionally useful if you need to be *fast* fast.
+A quick refactor of an older project, because I wanted to try out [Streamlit](https://streamlit.io/). Verdict: a largely immature tool, but occasionally useful if you need to be *fast* fast.
 
 ## Hololive Collabs
 If you drill it down, it's actually just a network graph counting many times a hololive vtuber has linked another hololive vtuber in
